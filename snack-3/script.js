@@ -4,7 +4,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 const newNumber = numbers.map((number) => {
-return number;
+return number + 1;
 })
 
-console.log (numbers)
+console.log (newNumber)
